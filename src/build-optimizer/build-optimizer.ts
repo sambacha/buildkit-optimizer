@@ -16,22 +16,8 @@ import {
 } from '../transforms/scrub-file';
 import { getWrapEnumsTransformer } from '../transforms/wrap-enums';
 
-// Angular packages are known to have no side effects.
+// Angular and other packages that are known to have no side effects.
 const knownSideEffectFreeAngularModules = [
-  /[\\/]node_modules[\\/]@disco3[\\/]animations[\\/]/,
-  /[\\/]node_modules[\\/]@disco3[\\/]common[\\/]/,
-  /[\\/]node_modules[\\/]@disco3[\\/]compiler[\\/]/,
-  /[\\/]node_modules[\\/]@disco3[\\/]core[\\/]/,
-  /[\\/]node_modules[\\/]@disco3[\\/]forms[\\/]/,
-  /[\\/]node_modules[\\/]@disco3[\\/]http[\\/]/,
-  /[\\/]node_modules[\\/]@disco3[\\/]platform-browser-dynamic[\\/]/,
-  /[\\/]node_modules[\\/]@disco3[\\/]platform-browser[\\/]/,
-  /[\\/]node_modules[\\/]@disco3[\\/]platform-webworker-dynamic[\\/]/,
-  /[\\/]node_modules[\\/]@disco3[\\/]platform-webworker[\\/]/,
-  /[\\/]node_modules[\\/]@disco3[\\/]router[\\/]/,
-  /[\\/]node_modules[\\/]@disco3[\\/]upgrade[\\/]/,
-  /[\\/]node_modules[\\/]@disco3[\\/]material[\\/]/,
-  /[\\/]node_modules[\\/]@disco3[\\/]cdk[\\/]/,
   /[\\/]node_modules[\\/]rxjs[\\/]/,
 ];
 
