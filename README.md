@@ -1,4 +1,4 @@
-# [disco3/buildkit-optimizer](#)
+# [buildkit-optimizer](#)
 
 `buildkit-optimizer` contains optimizations applicable to JavaScript code as a
 TypeScript transform pipeline.
